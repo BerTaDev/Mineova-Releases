@@ -1,0 +1,513 @@
+{
+ "game": "Mineova",
+ "updated": "2026-10-08T23:10:12.954Z",
+ "latest": {
+  "version": "2.1.0",
+  "build": "20261010.27",
+  "date": "2026-10-08",
+  "notes": "Yeni ad: Mineova! PC Başlatıcı, otomatik güncellemeler ve yeni ayarlar",
+  "packages": {
+   "44.5.1": {
+    "url": "packages/mineova-20261010.27-e44.5.1.dpak",
+    "size": 7512232,
+    "sha256": "21e9b42280dfe8daaa09a045b801082a07bd82b13df8a70676a0ebc663a741ca"
+   }
+  }
+ },
+ "launcher": {
+  "version": "1.0.0",
+  "url": "https://bertadev.itch.io/mineova"
+ },
+ "news": [
+  {
+   "b": "20261010.27",
+   "v": "2.1.0",
+   "ic": "ender_chest",
+   "ti": {
+    "tr": "Mineova Başlatıcı",
+    "en": "Mineova Launcher"
+   },
+   "it": [
+    {
+     "k": "new",
+     "ic": "diamond",
+     "t": {
+      "tr": "Oyunun yeni adı: Mineova! Dünyaların, ayarların ve profilin kendiliğinden yeni ada taşındı.",
+      "en": "The game has a new name: Mineova! Your worlds, settings and profile moved over automatically."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "ender_chest",
+     "t": {
+      "tr": "Bilgisayar için yeni Mineova Başlatıcı: bir kez kur, oyun güncellemeleri kendiliğinden insin.",
+      "en": "New Mineova Launcher for PC: install once and game updates download by themselves."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "written_book",
+     "t": {
+      "tr": "Başlatıcıda haberler, sürüm bilgisi, ayarlar ve tek tıkla Oyna düğmesi.",
+      "en": "The launcher has news, version info, settings and a one-click Play button."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "map",
+     "t": {
+      "tr": "Güncelleme bildirimi artık başlatıcıya döndürüyor; yeni sürümü başlatıcı indiriyor.",
+      "en": "The update notice now takes you back to the launcher, which downloads the new version."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "lock",
+     "t": {
+      "tr": "Oyun dosyaları artık şifreli ve korumalı.",
+      "en": "Game files are now encrypted and protected."
+     }
+    }
+   ]
+  },
+  {
+   "b": "20261010.26",
+   "v": "2.0.0",
+   "ic": "written_book",
+   "ti": {
+    "tr": "Hata avı ve Yenilikler sayfası",
+    "en": "Bug hunt & the What's New page"
+   },
+   "it": [
+    {
+     "k": "new",
+     "ic": "written_book",
+     "t": {
+      "tr": "Ana menüde yeni Yenilikler sayfası: her güncellemede neyin değiştiğini buradan okuyabilirsin.",
+      "en": "New What's New page in the main menu: read what changed in every update right here."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "paper",
+     "t": {
+      "tr": "Fare tekerleği ya da ↑ ↓ ile kaydır, ← → ile sürümler arasında geç, Esc ile geri dön.",
+      "en": "Scroll with the mouse wheel or ↑ ↓, switch versions with ← →, go back with Esc."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "door",
+     "t": {
+      "tr": "Masaüstü sürümünde ana menüye Çıkış düğmesi geldi; çıkmadan önce emin olup olmadığın soruluyor.",
+      "en": "The desktop version now has a Quit button in the main menu, and it asks if you're sure before quitting."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "glass",
+     "t": {
+      "tr": "Ayarlar baştan tasarlandı: sekmeler, her ayarın ne işe yaradığı ve grafik ayarları için canlı önizleme.",
+      "en": "Settings redesigned: tabs, what each setting does, and a live preview for graphics settings."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "potion_heal",
+     "t": {
+      "tr": "Cadıya vurunca ekrandaki blokların bir anlığına kaybolup yalnızca gökyüzünün kalması düzeltildi.",
+      "en": "Fixed blocks briefly vanishing from the screen, leaving only the sky, when you hit a witch."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "rose",
+     "t": {
+      "tr": "Köylülerle dostluğun, hediye günü ve çocukların istekleri artık kayıttan doğru yükleniyor.",
+      "en": "Your friendships with villagers, gift days and kids' requests now load correctly from your save."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "campfire",
+     "t": {
+      "tr": "Kamp ateşindeki yiyecekler, vücut sıcaklığı, fitili yanan TNT ve süren hava olayı artık kaydediliyor.",
+      "en": "Food on campfires, body temperature, lit TNT and the current weather event are now saved."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "observer",
+     "t": {
+      "tr": "Gözlemci ve pistonlar artık ekranda görünmeseler de oyuncunun çevresinde çalışıyor.",
+      "en": "Observers and pistons now work around the player even when they're off screen."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "shield",
+     "t": {
+      "tr": "Kale ve Şehir'de \"Dolunay Nöbeti\" artık gerçekten dolunay gecesi kuşatmayla oynanıyor.",
+      "en": "In Castles and Cities, \"Full-Moon Watch\" is now really played as a siege on the full-moon night."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "emerald",
+     "t": {
+      "tr": "Toplu takas artık onay başına en fazla +1 ün veriyor.",
+      "en": "Bulk trades now give at most +1 reputation per confirmation."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "iron_sword",
+     "t": {
+      "tr": "Köylü öldürme cezası artık köylünün kendi köyüne yazılıyor.",
+      "en": "The penalty for killing a villager now goes to that villager's own village."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "chest",
+     "t": {
+      "tr": "Gezgin tüccar, kervan tüccarı ve tezgâhtarda artık Görev sekmesi yok; tüccar gidince görevin yanmıyor.",
+      "en": "The travelling merchant, caravan merchant and stall keeper no longer have a Quest tab, so you don't lose a quest when the merchant leaves."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "anvil",
+     "t": {
+      "tr": "Örste iki kafa lambası ya da iki çanta birleştirip bedava pil ve dayanıklılık kazanma açığı kapatıldı.",
+      "en": "Closed the exploit of combining two headlamps or two backpacks on the anvil for free battery and durability."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "abyss_crown",
+     "t": {
+      "tr": "Efendinin Tacı ve direnç iksiri artık Hiçlik Özü hasarını da %25 azaltıyor.",
+      "en": "The Lord's Crown and the resistance potion now also reduce Void Essence damage by 25%."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "bone",
+     "t": {
+      "tr": "Kurtların ısırığı artık zorluk seviyesine göre değişiyor.",
+      "en": "Wolf bites now scale with the difficulty level."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "village_seal",
+     "t": {
+      "tr": "Seviye hikâyesi bölümleri ve kervan eşliği için muhtarın kendine özgü ödül sözleri eklendi.",
+      "en": "The headman now has his own reward lines for level story chapters and caravan escorts."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "bed",
+     "t": {
+      "tr": "Çok oyunculu: uyuyan diğer oyuncular artık yatakta yatarken görünüyor.",
+      "en": "Multiplayer: other sleeping players are now shown lying in their beds."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "campfire",
+     "t": {
+      "tr": "Çok oyunculu: oyunu aniden kapatan oyuncu 30 saniyede listeden düşüyor; kurucu kapanırsa bağlantının koptuğu söyleniyor.",
+      "en": "Multiplayer: a player who suddenly closes the game drops from the list within 30 seconds; if the host closes, you're told the connection was lost."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "furnace",
+     "t": {
+      "tr": "Performans: fırınlar, uzaktaki sandıklar ve dünya küçük resmi artık çok daha az işlemci harcıyor.",
+      "en": "Performance: furnaces, distant chests and the world thumbnail now use far less CPU."
+     }
+    }
+   ]
+  },
+  {
+   "b": "20261010.24",
+   "v": "2.0.0",
+   "ic": "mud",
+   "ti": {
+    "tr": "Bataklık, uyku ve köy düzeltmeleri",
+    "en": "Swamps, sleep & village fixes"
+   },
+   "it": [
+    {
+     "k": "new",
+     "ic": "bed",
+     "t": {
+      "tr": "Yatağa yatınca köylüler gibi uzanıyorsun; gece birkaç saniyede sabaha akıyor.",
+      "en": "You now lie down in bed like villagers do, and the night flows into morning in a few seconds."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "mud",
+     "t": {
+      "tr": "Bataklık çamuru seni yavaşça yutar: kurtulmak için Boşluk tuşuna art arda bas.",
+      "en": "Swamp mud slowly swallows you: tap Space again and again to break free."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "dirt",
+     "t": {
+      "tr": "Köy evlerinin arasında beliren toprak ve kum sütunları temizlendi; eski dünyalarda da kendiliğinden düzelir.",
+      "en": "The dirt and sand pillars that appeared between village houses are gone, and they clean up in existing worlds too."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "iron_shovel",
+     "t": {
+      "tr": "Köyde kazdığın yerler geri dolmuyor, kırdığın ev parçaları ertesi gün onarılıyor.",
+      "en": "Holes you dig in villages no longer refill, and house parts you break are repaired the next day."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "saddle",
+     "t": {
+      "tr": "Kervanın atına artık binilemiyor: üstünde kervancı oturuyor.",
+      "en": "You can no longer ride the caravan's horse: the caravan driver sits on it."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "map",
+     "t": {
+      "tr": "Görev kartlarını × ile gizleyebilirsin; Muhtar Defteri'ndeki uzun yazılar artık kayarak okunuyor.",
+      "en": "You can hide quest cards with ×, and long texts in the Headman's Ledger now scroll so you can read them fully."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "painting_frame",
+     "t": {
+      "tr": "Ekrandaki ince ızgara çizgileri giderildi; tablo çerçevesinin simgesi geldi.",
+      "en": "The thin grid lines on screen are gone, and the painting frame got its icon."
+     }
+    }
+   ]
+  },
+  {
+   "b": "20261010.21",
+   "v": "2.0.0",
+   "ic": "lantern",
+   "ti": {
+    "tr": "Işık, gölge ve korku",
+    "en": "Light, shadow & dread"
+   },
+   "it": [
+    {
+     "k": "new",
+     "ic": "lantern",
+     "t": {
+      "tr": "Renkli ışıklar ve bloklara çarpıp düşen gerçek gölgeler; alevler titriyor.",
+      "en": "Colored lights and real shadows cast by blocks; flames flicker."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "glass",
+     "t": {
+      "tr": "Yeni Grafik Ayarları: ön ayar, ışık kalitesi, gölgeler, parlama, çözünürlük ve kare sınırı.",
+      "en": "New Graphics settings: preset, light quality, shadows, bloom, resolution and frame cap."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "map",
+     "t": {
+      "tr": "Görüş alanını sen seç: Ayarlar > Grafik ya da oyunda Alt + fare tekerleği.",
+      "en": "Choose your field of view: Settings > Graphics, or Alt + mouse wheel in game."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "redstone",
+     "t": {
+      "tr": "F3 artık sistem bilgisini de gösteriyor: FPS, ekran kartı, işlemci ve bellek.",
+      "en": "F3 now also shows system info: FPS, GPU, CPU and memory."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "abyss_crown",
+     "t": {
+      "tr": "Her patronun kendi müzik teması var; Derinlerin Efendisi çok daha ürkütücü.",
+      "en": "Every boss has its own music theme, and the Lord of the Depths is far scarier."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "bone",
+     "t": {
+      "tr": "Öldüğünde eşyalarının saçıldığını görürsün; ölüm kartı birkaç saniye sonra açılır.",
+      "en": "When you die you see your items scatter; the death screen opens a few seconds later."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "ender_eye",
+     "t": {
+      "tr": "Keşif görevleri yüzeyde de uzak yerlere gönderiyor; 18 yeni başarım.",
+      "en": "Exploration quests now send you to far places on the surface too; 18 new achievements."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "writable_book",
+     "t": {
+      "tr": "Mola menüsünde Geri Bildirim defteri: oyunu nasıl bulduğunu bize anlat.",
+      "en": "A Feedback notebook in the pause menu: tell us what you think of the game."
+     }
+    }
+   ]
+  },
+  {
+   "b": "20261010.10",
+   "v": "2.0.0",
+   "ic": "stone_bricks",
+   "ti": {
+    "tr": "Kaleler, şehirler ve kervanlar",
+    "en": "Castles, cities & caravans"
+   },
+   "it": [
+    {
+     "k": "new",
+     "ic": "stone_bricks",
+     "t": {
+      "tr": "Köyler Kasaba'dan sonra Belde, Kale ve Şehir olarak büyüyor; surlar ve askerler geldi.",
+      "en": "After Town, villages grow into Township, Castle and City; walls and soldiers are here."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "door",
+     "t": {
+      "tr": "Sur kapıları gündüz açık; gece yalnızca köyün tanıdıklarına açılıyor.",
+      "en": "Wall gates are open by day; at night they only open for people the village knows."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "saddle",
+     "t": {
+      "tr": "Köyler arası yollar ve kervanlar: tüccara eşlik et, haydutlara karşı koy.",
+      "en": "Roads and caravans between villages: escort the merchant and stand up to bandits."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "ladder",
+     "t": {
+      "tr": "Köy arazisi kendiliğinden düzleniyor; köylüler merdiven çıkıyor ve yüzüyor.",
+      "en": "Village terrain smooths itself out; villagers climb ladders and swim."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "fence",
+     "t": {
+      "tr": "Çiftlik hayvanları fenerli, çatılı ağıllarda yaşıyor.",
+      "en": "Farm animals live in lantern-lit, roofed pens."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "lever",
+     "t": {
+      "tr": "F4 ile Komut Paneli: oyun modu, zaman, hava ve daha fazlası tek tıkla (hileler açıkken).",
+      "en": "Command Panel on F4: game mode, time, weather and more in one click (with cheats on)."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "book",
+     "t": {
+      "tr": "Yeni Ustalıklar ekranı ve /ustalik, /un, /kervan, /komutlar komutları.",
+      "en": "New Masteries screen and the /ustalik, /un, /kervan, /komutlar commands."
+     }
+    }
+   ]
+  },
+  {
+   "b": "20261009.91",
+   "v": "2.0.0",
+   "ic": "emerald",
+   "ti": {
+    "tr": "Köyler canlanıyor, mobil yenilendi",
+    "en": "Villages come alive, mobile redesigned"
+   },
+   "it": [
+    {
+     "k": "new",
+     "ic": "emerald",
+     "t": {
+      "tr": "Muhtar ve Muhtar Defteri: günlük ihtiyaçlar, haftalık işler ve hikâye bölümleri.",
+      "en": "The Headman and the Headman's Ledger: daily needs, weekly jobs and story chapters."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "notice_board",
+     "t": {
+      "tr": "İlan panosu: köylülerin isteklerini karşıla ya da kendi ilanını as.",
+      "en": "Notice board: fulfil villagers' requests or pin your own."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "iron_pickaxe",
+     "t": {
+      "tr": "Çıraklar: Çiftçi, Madenci, Aşçı, Muhafız ya da Simyacı tut; maaşını ve yatağını unutma!",
+      "en": "Apprentices: hire a Farmer, Miner, Cook, Guard or Alchemist; don't forget their wage and bed!"
+     }
+    },
+    {
+     "k": "new",
+     "ic": "pumpkin",
+     "t": {
+      "tr": "Dolunay baskınları, pazar günleri, mevsim şenlikleri ve düğünler.",
+      "en": "Full-moon raids, market days, seasonal festivals and weddings."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "ender_chest",
+     "t": {
+      "tr": "Windows sürümü: tek dosyalık taşınabilir EXE ya da zip; kayıtların yerinde kalır.",
+      "en": "Windows version: a single-file portable EXE or a zip; your saves stay put."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "guardian_bow",
+     "t": {
+      "tr": "Yeni patronlar: Zindan Bekçisi, Deniz Canavarı ve Derinlerin Efendisi.",
+      "en": "New bosses: the Dungeon Guardian, the Sea Leviathan and the Lord of the Depths."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "map",
+     "t": {
+      "tr": "Yeni sürüm çıkınca oyun içinden bildirim alırsın.",
+      "en": "You get an in-game notice when a new version is out."
+     }
+    }
+   ]
+  }
+ ]
+}
