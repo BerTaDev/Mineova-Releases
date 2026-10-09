@@ -1,37 +1,136 @@
 {
  "game": "Mineova",
- "updated": "2026-10-09T19:50:10.154Z",
+ "updated": "2026-10-09T20:36:24.729Z",
  "latest": {
   "version": "2.1.0",
-  "build": "20261010.28",
+  "build": "20261010.29",
   "date": "2026-10-09",
-  "notes": "Başlatıcı artık kendini güncelliyor, daha küçük kurulum, anonim kullanım verisi",
+  "notes": "Başlatıcı 1.2.0: sürüm seçimi, galeri, hata bildir, 7 dil, başlatma seçenekleri",
   "packages": {
    "44.5.1": {
-    "url": "packages/mineova-20261010.28-e44.5.1.dpak",
-    "size": 7543008,
-    "sha256": "5c94409093db580c8bf2834c93081240016cc50c3dd300d478a746cc895ca310"
+    "url": "packages/mineova-20261010.29-e44.5.1.dpak",
+    "size": 7550944,
+    "sha256": "aca2283d63d170778fa689746d68349078584f67c99878770a7831238182717f"
    }
   }
  },
  "launcher": {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "electron": "44.5.1",
   "url": "https://bertadev.itch.io/mineova",
   "asar": {
-   "url": "launcher/app-1.1.0-e44.5.1.bin",
-   "size": 7773361,
-   "sha256": "7e07b2fb1850fa8a812bd0f0d0b0c6ceba3f008fa82d2d8de3250f60faa50811"
+   "url": "launcher/app-1.2.0-e44.5.1.bin",
+   "size": 7823975,
+   "sha256": "e42c6d9b65b1f919502772bffb4c5f9a131633f70e73284b17f1e375331f2736"
   }
  },
  "news": [
+  {
+   "b": "20261010.29",
+   "v": "2.1.0",
+   "ic": "ender_chest",
+   "ti": {
+    "tr": "Başlatıcı yenilikleri",
+    "en": "Launcher updates",
+    "es": "Novedades del lanzador",
+    "de": "Launcher-Neuigkeiten",
+    "fr": "Nouveautés du lanceur",
+    "pt": "Novidades do launcher",
+    "ru": "Новое в лаунчере"
+   },
+   "it": [
+    {
+     "k": "new",
+     "ic": "ender_chest",
+     "t": {
+      "tr": "Sürüm seçimi: başlatıcıda daha önce açtığın eski sürümlerle oynayabilirsin.",
+      "en": "Version picker: play older versions you have opened before, right from the launcher.",
+      "es": "Selector de versión: juega versiones antiguas que ya abriste, desde el lanzador.",
+      "de": "Versionsauswahl: Spiele ältere, schon geöffnete Versionen direkt im Launcher.",
+      "fr": "Choix de version : joue aux anciennes versions déjà ouvertes, depuis le lanceur.",
+      "pt": "Seletor de versão: jogue versões antigas que você já abriu, pelo launcher.",
+      "ru": "Выбор версии: играй в старые, уже запускавшиеся версии прямо из лаунчера."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "painting_frame",
+     "t": {
+      "tr": "Ekran görüntüsü galerisi: oyunda F2 ile aldıkların başlatıcıda.",
+      "en": "Screenshot gallery: shots you take in game with F2 show up in the launcher.",
+      "es": "Galería de capturas: las que tomes con F2 aparecen en el lanzador.",
+      "de": "Screenshot-Galerie: Mit F2 aufgenommene Bilder erscheinen im Launcher.",
+      "fr": "Galerie de captures : celles prises avec F2 apparaissent dans le lanceur.",
+      "pt": "Galeria de capturas: as que você tirar com F2 aparecem no launcher.",
+      "ru": "Галерея скриншотов: снимки по F2 появляются в лаунчере."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "writable_book",
+     "t": {
+      "tr": "Başlatıcıdan tek tıkla hata bildirebilirsin.",
+      "en": "Report a bug from the launcher in one click.",
+      "es": "Informa de errores desde el lanzador con un clic.",
+      "de": "Melde Fehler mit einem Klick im Launcher.",
+      "fr": "Signale un bug depuis le lanceur en un clic.",
+      "pt": "Relate erros pelo launcher com um clique.",
+      "ru": "Сообщай об ошибках из лаунчера в один клик."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "map",
+     "t": {
+      "tr": "Başlatıcı artık oyundaki 7 dilin hepsinde.",
+      "en": "The launcher now speaks all 7 of the game's languages.",
+      "es": "El lanzador ya está en los 7 idiomas del juego.",
+      "de": "Der Launcher gibt es jetzt in allen 7 Spielsprachen.",
+      "fr": "Le lanceur est maintenant dans les 7 langues du jeu.",
+      "pt": "O launcher agora está nos 7 idiomas do jogo.",
+      "ru": "Лаунчер теперь на всех 7 языках игры."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "redstone",
+     "t": {
+      "tr": "Başlatma seçenekleri: tam ekran, pencere ya da ekranı kapla; donanım hızlandırmayı kapatma.",
+      "en": "Launch options: fullscreen, window or maximized, and turning off hardware acceleration.",
+      "es": "Opciones de inicio: pantalla completa, ventana o maximizada, y desactivar la aceleración por hardware.",
+      "de": "Startoptionen: Vollbild, Fenster oder maximiert, Hardwarebeschleunigung abschaltbar.",
+      "fr": "Options de lancement : plein écran, fenêtre ou agrandi, et désactivation de l'accélération matérielle.",
+      "pt": "Opções de inicialização: tela cheia, janela ou maximizada, e desligar a aceleração de hardware.",
+      "ru": "Параметры запуска: полный экран, окно или развёрнутое, отключение аппаратного ускорения."
+     }
+    },
+    {
+     "k": "fix",
+     "ic": "paper",
+     "t": {
+      "tr": "Küçük düzeltmeler ve iyileştirmeler.",
+      "en": "Small fixes and improvements.",
+      "es": "Pequeñas correcciones y mejoras.",
+      "de": "Kleine Korrekturen und Verbesserungen.",
+      "fr": "Petites corrections et améliorations.",
+      "pt": "Pequenas correções e melhorias.",
+      "ru": "Небольшие исправления и улучшения."
+     }
+    }
+   ]
+  },
   {
    "b": "20261010.28",
    "v": "2.1.0",
    "ic": "paper",
    "ti": {
     "tr": "Daha küçük kurulum",
-    "en": "Smaller installer"
+    "en": "Smaller installer",
+    "es": "Instalador más pequeño",
+    "de": "Kleinerer Installer",
+    "fr": "Installateur plus léger",
+    "pt": "Instalador menor",
+    "ru": "Установщик стал меньше"
    },
    "it": [
     {
@@ -39,7 +138,12 @@
      "ic": "ender_chest",
      "t": {
       "tr": "Başlatıcı artık kendini güncelliyor: yeni sürümler için itch.io'ya gitmene gerek yok.",
-      "en": "The launcher now updates itself: no need to visit itch.io for new versions."
+      "en": "The launcher now updates itself: no need to visit itch.io for new versions.",
+      "es": "El lanzador ahora se actualiza solo: ya no necesitas ir a itch.io para las nuevas versiones.",
+      "de": "Der Launcher aktualisiert sich jetzt selbst: Für neue Versionen musst du nicht mehr zu itch.io.",
+      "fr": "Le lanceur se met maintenant à jour tout seul : plus besoin d'aller sur itch.io pour les nouvelles versions.",
+      "pt": "O launcher agora se atualiza sozinho: não precisa mais ir ao itch.io para novas versões.",
+      "ru": "Лаунчер теперь обновляется сам: за новыми версиями больше не нужно ходить на itch.io."
      }
     },
     {
@@ -47,7 +151,12 @@
      "ic": "ender_chest",
      "t": {
       "tr": "Başlatıcı kurulumu artık çok daha küçük: oyun ilk açılışta başlatıcıdan indirilir.",
-      "en": "The launcher installer is now much smaller: the game is downloaded by the launcher on first start."
+      "en": "The launcher installer is now much smaller: the game is downloaded by the launcher on first start.",
+      "es": "El instalador del lanzador ahora es mucho más pequeño: el juego se descarga desde el lanzador al abrirlo por primera vez.",
+      "de": "Der Launcher-Installer ist jetzt viel kleiner: Das Spiel wird beim ersten Start vom Launcher heruntergeladen.",
+      "fr": "L'installateur du lanceur est maintenant bien plus léger : le jeu est téléchargé par le lanceur au premier démarrage.",
+      "pt": "O instalador do launcher agora é bem menor: o jogo é baixado pelo launcher na primeira abertura.",
+      "ru": "Установщик лаунчера стал намного меньше: игра скачивается лаунчером при первом запуске."
      }
     },
     {
@@ -55,7 +164,12 @@
      "ic": "paper",
      "t": {
       "tr": "Oyunu geliştirmek için anonim kullanım verisi: adın, dünyaların ve sohbetin gönderilmez. Ayarlar › Genel'den kapatılabilir.",
-      "en": "Anonymous usage data to help improve the game: your name, worlds and chat are never sent. You can turn it off in Settings › General."
+      "en": "Anonymous usage data to help improve the game: your name, worlds and chat are never sent. You can turn it off in Settings › General.",
+      "es": "Datos de uso anónimos para mejorar el juego: nunca se envían tu nombre, tus mundos ni el chat. Puedes desactivarlo en Ajustes › General.",
+      "de": "Anonyme Nutzungsdaten zur Verbesserung des Spiels: Name, Welten und Chat werden nie gesendet. Abschalten unter Einstellungen › Allgemein.",
+      "fr": "Données d'utilisation anonymes pour améliorer le jeu : ton nom, tes mondes et le chat ne sont jamais envoyés. Désactivable dans Paramètres › Général.",
+      "pt": "Dados de uso anônimos para melhorar o jogo: seu nome, mundos e chat nunca são enviados. Desative em Configurações › Geral.",
+      "ru": "Анонимная статистика для улучшения игры: имя, миры и чат не отправляются. Отключить: Настройки › Общие."
      }
     }
    ]
@@ -66,7 +180,12 @@
    "ic": "ender_chest",
    "ti": {
     "tr": "Mineova Başlatıcı",
-    "en": "Mineova Launcher"
+    "en": "Mineova Launcher",
+    "es": "Lanzador de Mineova",
+    "de": "Mineova-Launcher",
+    "fr": "Lanceur Mineova",
+    "pt": "Inicializador Mineova",
+    "ru": "Лаунчер Mineova"
    },
    "it": [
     {
@@ -74,7 +193,12 @@
      "ic": "diamond",
      "t": {
       "tr": "Oyunun yeni adı: Mineova! Dünyaların, ayarların ve profilin kendiliğinden yeni ada taşındı.",
-      "en": "The game has a new name: Mineova! Your worlds, settings and profile moved over automatically."
+      "en": "The game has a new name: Mineova! Your worlds, settings and profile moved over automatically.",
+      "es": "El juego tiene nuevo nombre: ¡Mineova! Tus mundos, ajustes y perfil se trasladaron solos.",
+      "de": "Das Spiel heißt jetzt Mineova! Deine Welten, Einstellungen und dein Profil wurden automatisch übernommen.",
+      "fr": "Le jeu s'appelle désormais Mineova ! Tes mondes, réglages et profil ont été transférés automatiquement.",
+      "pt": "O jogo tem um novo nome: Mineova! Seus mundos, configurações e perfil foram transferidos automaticamente.",
+      "ru": "У игры новое имя — Mineova! Твои миры, настройки и профиль перенесены автоматически."
      }
     },
     {
@@ -82,7 +206,12 @@
      "ic": "ender_chest",
      "t": {
       "tr": "Bilgisayar için yeni Mineova Başlatıcı: bir kez kur, oyun güncellemeleri kendiliğinden insin.",
-      "en": "New Mineova Launcher for PC: install once and game updates download by themselves."
+      "en": "New Mineova Launcher for PC: install once and game updates download by themselves.",
+      "es": "Nuevo lanzador de Mineova para PC: instálalo una vez y las actualizaciones se descargan solas.",
+      "de": "Neuer Mineova-Launcher für PC: einmal installieren, Spielupdates laden sich von selbst.",
+      "fr": "Nouveau lanceur Mineova pour PC : installe-le une fois, les mises à jour se téléchargent seules.",
+      "pt": "Novo inicializador do Mineova para PC: instale uma vez e as atualizações baixam sozinhas.",
+      "ru": "Новый лаунчер Mineova для ПК: установи один раз — обновления скачиваются сами."
      }
     },
     {
@@ -90,7 +219,12 @@
      "ic": "written_book",
      "t": {
       "tr": "Başlatıcıda haberler, sürüm bilgisi, ayarlar ve tek tıkla Oyna düğmesi.",
-      "en": "The launcher has news, version info, settings and a one-click Play button."
+      "en": "The launcher has news, version info, settings and a one-click Play button.",
+      "es": "El lanzador trae noticias, versión, ajustes y un botón Jugar de un clic.",
+      "de": "Der Launcher bietet News, Versionsinfos, Einstellungen und einen Spielen-Knopf mit einem Klick.",
+      "fr": "Le lanceur propose actualités, infos de version, réglages et un bouton Jouer en un clic.",
+      "pt": "O inicializador tem notícias, versão, configurações e um botão Jogar de um clique.",
+      "ru": "В лаунчере новости, версия, настройки и кнопка «Играть» в один клик."
      }
     },
     {
@@ -98,7 +232,12 @@
      "ic": "map",
      "t": {
       "tr": "Güncelleme bildirimi artık başlatıcıya döndürüyor; yeni sürümü başlatıcı indiriyor.",
-      "en": "The update notice now takes you back to the launcher, which downloads the new version."
+      "en": "The update notice now takes you back to the launcher, which downloads the new version.",
+      "es": "El aviso de actualización ahora te lleva al lanzador, que descarga la nueva versión.",
+      "de": "Der Update-Hinweis bringt dich jetzt zum Launcher, der die neue Version lädt.",
+      "fr": "L'avis de mise à jour te ramène au lanceur, qui télécharge la nouvelle version.",
+      "pt": "O aviso de atualização agora leva ao inicializador, que baixa a nova versão.",
+      "ru": "Уведомление об обновлении теперь возвращает в лаунчер, который скачивает новую версию."
      }
     },
     {
@@ -106,7 +245,12 @@
      "ic": "lock",
      "t": {
       "tr": "Oyun dosyaları artık şifreli ve korumalı.",
-      "en": "Game files are now encrypted and protected."
+      "en": "Game files are now encrypted and protected.",
+      "es": "Los archivos del juego ahora están cifrados y protegidos.",
+      "de": "Die Spieldateien sind jetzt verschlüsselt und geschützt.",
+      "fr": "Les fichiers du jeu sont désormais chiffrés et protégés.",
+      "pt": "Os arquivos do jogo agora são criptografados e protegidos.",
+      "ru": "Файлы игры теперь зашифрованы и защищены."
      }
     }
    ]
@@ -117,7 +261,12 @@
    "ic": "written_book",
    "ti": {
     "tr": "Hata avı ve Yenilikler sayfası",
-    "en": "Bug hunt & the What's New page"
+    "en": "Bug hunt & the What's New page",
+    "es": "Caza de errores y página de novedades",
+    "de": "Fehlerjagd und Neuigkeiten-Seite",
+    "fr": "Chasse aux bugs et page Nouveautés",
+    "pt": "Caça aos bugs e página de novidades",
+    "ru": "Охота на баги и страница «Что нового»"
    },
    "it": [
     {
@@ -125,7 +274,12 @@
      "ic": "written_book",
      "t": {
       "tr": "Ana menüde yeni Yenilikler sayfası: her güncellemede neyin değiştiğini buradan okuyabilirsin.",
-      "en": "New What's New page in the main menu: read what changed in every update right here."
+      "en": "New What's New page in the main menu: read what changed in every update right here.",
+      "es": "Nueva página de novedades en el menú principal: lee aquí qué cambió en cada actualización.",
+      "de": "Neue Neuigkeiten-Seite im Hauptmenü: Hier liest du, was sich mit jedem Update geändert hat.",
+      "fr": "Nouvelle page Nouveautés dans le menu principal : découvre ici ce qui change à chaque mise à jour.",
+      "pt": "Nova página de novidades no menu principal: leia aqui o que mudou em cada atualização.",
+      "ru": "Новая страница «Что нового» в главном меню: здесь видно, что изменилось в каждом обновлении."
      }
     },
     {
@@ -133,7 +287,12 @@
      "ic": "paper",
      "t": {
       "tr": "Fare tekerleği ya da ↑ ↓ ile kaydır, ← → ile sürümler arasında geç, Esc ile geri dön.",
-      "en": "Scroll with the mouse wheel or ↑ ↓, switch versions with ← →, go back with Esc."
+      "en": "Scroll with the mouse wheel or ↑ ↓, switch versions with ← →, go back with Esc.",
+      "es": "Desplázate con la rueda o ↑ ↓, cambia de versión con ← → y vuelve con Esc.",
+      "de": "Scrolle mit dem Mausrad oder ↑ ↓, wechsle die Version mit ← →, zurück mit Esc.",
+      "fr": "Fais défiler avec la molette ou ↑ ↓, change de version avec ← →, reviens avec Échap.",
+      "pt": "Role com a roda do mouse ou ↑ ↓, troque de versão com ← → e volte com Esc.",
+      "ru": "Прокручивай колесом мыши или ↑ ↓, переключай версии ← →, выход — Esc."
      }
     },
     {
@@ -141,7 +300,12 @@
      "ic": "door",
      "t": {
       "tr": "Masaüstü sürümünde ana menüye Çıkış düğmesi geldi; çıkmadan önce emin olup olmadığın soruluyor.",
-      "en": "The desktop version now has a Quit button in the main menu, and it asks if you're sure before quitting."
+      "en": "The desktop version now has a Quit button in the main menu, and it asks if you're sure before quitting.",
+      "es": "La versión de escritorio ahora tiene un botón Salir en el menú principal que pide confirmación antes de cerrar.",
+      "de": "Die Desktop-Version hat jetzt einen Beenden-Knopf im Hauptmenü, der vor dem Schließen nachfragt.",
+      "fr": "La version bureau a désormais un bouton Quitter dans le menu principal, qui demande confirmation avant de fermer.",
+      "pt": "A versão de desktop agora tem um botão Sair no menu principal, que pede confirmação antes de fechar.",
+      "ru": "В версии для ПК в главном меню появилась кнопка «Выход» — перед выходом игра переспрашивает."
      }
     },
     {
@@ -149,7 +313,12 @@
      "ic": "glass",
      "t": {
       "tr": "Ayarlar baştan tasarlandı: sekmeler, her ayarın ne işe yaradığı ve grafik ayarları için canlı önizleme.",
-      "en": "Settings redesigned: tabs, what each setting does, and a live preview for graphics settings."
+      "en": "Settings redesigned: tabs, what each setting does, and a live preview for graphics settings.",
+      "es": "Ajustes rediseñados: pestañas, qué hace cada opción y vista previa en vivo de los gráficos.",
+      "de": "Einstellungen neu gestaltet: Tabs, Erklärungen zu jeder Option und eine Live-Vorschau für Grafik.",
+      "fr": "Réglages repensés : onglets, explication de chaque option et aperçu en direct des graphismes.",
+      "pt": "Configurações redesenhadas: abas, o que cada opção faz e prévia ao vivo dos gráficos.",
+      "ru": "Настройки переработаны: вкладки, пояснения к каждой опции и живой предпросмотр графики."
      }
     },
     {
@@ -157,7 +326,12 @@
      "ic": "potion_heal",
      "t": {
       "tr": "Cadıya vurunca ekrandaki blokların bir anlığına kaybolup yalnızca gökyüzünün kalması düzeltildi.",
-      "en": "Fixed blocks briefly vanishing from the screen, leaving only the sky, when you hit a witch."
+      "en": "Fixed blocks briefly vanishing from the screen, leaving only the sky, when you hit a witch.",
+      "es": "Se corrigió que, al golpear a una bruja, los bloques desaparecieran un instante y solo quedara el cielo.",
+      "de": "Behoben: Beim Treffen einer Hexe verschwanden kurz alle Blöcke und nur der Himmel blieb.",
+      "fr": "Corrigé : en frappant une sorcière, les blocs disparaissaient un instant et seul le ciel restait.",
+      "pt": "Corrigido: ao bater numa bruxa, os blocos sumiam por um instante e só restava o céu.",
+      "ru": "Исправлено: при ударе по ведьме блоки на миг пропадали и оставалось только небо."
      }
     },
     {
@@ -165,7 +339,12 @@
      "ic": "rose",
      "t": {
       "tr": "Köylülerle dostluğun, hediye günü ve çocukların istekleri artık kayıttan doğru yükleniyor.",
-      "en": "Your friendships with villagers, gift days and kids' requests now load correctly from your save."
+      "en": "Your friendships with villagers, gift days and kids' requests now load correctly from your save.",
+      "es": "Tu amistad con los aldeanos, los días de regalo y los pedidos de los niños ahora se cargan bien desde la partida.",
+      "de": "Freundschaften mit Dorfbewohnern, Geschenktage und Kinderwünsche werden jetzt richtig aus dem Spielstand geladen.",
+      "fr": "Tes amitiés avec les villageois, les jours de cadeau et les demandes des enfants se chargent désormais correctement.",
+      "pt": "Sua amizade com os aldeões, os dias de presente e os pedidos das crianças agora carregam certo do save.",
+      "ru": "Дружба с жителями, дни подарков и просьбы детей теперь правильно загружаются из сохранения."
      }
     },
     {
@@ -173,7 +352,12 @@
      "ic": "campfire",
      "t": {
       "tr": "Kamp ateşindeki yiyecekler, vücut sıcaklığı, fitili yanan TNT ve süren hava olayı artık kaydediliyor.",
-      "en": "Food on campfires, body temperature, lit TNT and the current weather event are now saved."
+      "en": "Food on campfires, body temperature, lit TNT and the current weather event are now saved.",
+      "es": "La comida en las fogatas, la temperatura corporal, la dinamita encendida y el evento climático en curso ahora se guardan.",
+      "de": "Essen auf Lagerfeuern, Körpertemperatur, gezündetes TNT und das laufende Wetterereignis werden jetzt gespeichert.",
+      "fr": "La nourriture sur les feux de camp, la température corporelle, la TNT allumée et l'événement météo en cours sont désormais sauvegardés.",
+      "pt": "Comida nas fogueiras, temperatura corporal, TNT acesa e o evento climático em andamento agora são salvos.",
+      "ru": "Еда на кострах, температура тела, подожжённый динамит и текущее погодное событие теперь сохраняются."
      }
     },
     {
@@ -181,7 +365,12 @@
      "ic": "observer",
      "t": {
       "tr": "Gözlemci ve pistonlar artık ekranda görünmeseler de oyuncunun çevresinde çalışıyor.",
-      "en": "Observers and pistons now work around the player even when they're off screen."
+      "en": "Observers and pistons now work around the player even when they're off screen.",
+      "es": "Los observadores y pistones ahora funcionan cerca del jugador aunque no estén en pantalla.",
+      "de": "Beobachter und Kolben arbeiten jetzt in Spielernähe, auch wenn sie nicht im Bild sind.",
+      "fr": "Les observateurs et pistons fonctionnent désormais autour du joueur même hors de l'écran.",
+      "pt": "Observadores e pistões agora funcionam perto do jogador mesmo fora da tela.",
+      "ru": "Наблюдатели и поршни теперь работают рядом с игроком, даже если их не видно на экране."
      }
     },
     {
@@ -189,7 +378,12 @@
      "ic": "shield",
      "t": {
       "tr": "Kale ve Şehir'de \"Dolunay Nöbeti\" artık gerçekten dolunay gecesi kuşatmayla oynanıyor.",
-      "en": "In Castles and Cities, \"Full-Moon Watch\" is now really played as a siege on the full-moon night."
+      "en": "In Castles and Cities, \"Full-Moon Watch\" is now really played as a siege on the full-moon night.",
+      "es": "En Castillos y Ciudades, «Guardia de luna llena» ahora se juega de verdad como un asedio en la noche de luna llena.",
+      "de": "In Burgen und Städten wird die „Vollmondwache“ jetzt wirklich als Belagerung in der Vollmondnacht gespielt.",
+      "fr": "Dans les Châteaux et les Villes, « Veille de pleine lune » se joue enfin comme un siège la nuit de pleine lune.",
+      "pt": "Em Castelos e Cidades, a \"Vigília da Lua Cheia\" agora é jogada de verdade como um cerco na noite de lua cheia.",
+      "ru": "В замках и городах «Дозор полнолуния» теперь действительно проходит как осада в ночь полнолуния."
      }
     },
     {
@@ -197,7 +391,12 @@
      "ic": "emerald",
      "t": {
       "tr": "Toplu takas artık onay başına en fazla +1 ün veriyor.",
-      "en": "Bulk trades now give at most +1 reputation per confirmation."
+      "en": "Bulk trades now give at most +1 reputation per confirmation.",
+      "es": "Los intercambios en lote ahora dan como máximo +1 de reputación por confirmación.",
+      "de": "Massenhandel gibt jetzt höchstens +1 Ansehen pro Bestätigung.",
+      "fr": "Les échanges en lot donnent désormais au plus +1 de réputation par confirmation.",
+      "pt": "Trocas em lote agora dão no máximo +1 de reputação por confirmação.",
+      "ru": "Оптовый обмен теперь даёт не больше +1 к репутации за подтверждение."
      }
     },
     {
@@ -205,7 +404,12 @@
      "ic": "iron_sword",
      "t": {
       "tr": "Köylü öldürme cezası artık köylünün kendi köyüne yazılıyor.",
-      "en": "The penalty for killing a villager now goes to that villager's own village."
+      "en": "The penalty for killing a villager now goes to that villager's own village.",
+      "es": "La penalización por matar a un aldeano ahora se aplica a su propia aldea.",
+      "de": "Die Strafe für das Töten eines Dorfbewohners gilt jetzt für dessen eigenes Dorf.",
+      "fr": "La pénalité pour avoir tué un villageois s'applique désormais à son propre village.",
+      "pt": "A penalidade por matar um aldeão agora vai para a vila dele.",
+      "ru": "Штраф за убийство жителя теперь начисляется его собственной деревне."
      }
     },
     {
@@ -213,7 +417,12 @@
      "ic": "chest",
      "t": {
       "tr": "Gezgin tüccar, kervan tüccarı ve tezgâhtarda artık Görev sekmesi yok; tüccar gidince görevin yanmıyor.",
-      "en": "The travelling merchant, caravan merchant and stall keeper no longer have a Quest tab, so you don't lose a quest when the merchant leaves."
+      "en": "The travelling merchant, caravan merchant and stall keeper no longer have a Quest tab, so you don't lose a quest when the merchant leaves.",
+      "es": "El mercader ambulante, el de la caravana y el tendero ya no tienen pestaña de misiones; no pierdes la misión cuando el mercader se va.",
+      "de": "Wanderhändler, Karawanenhändler und Standbesitzer haben keinen Quest-Tab mehr; geht der Händler, verfällt deine Quest nicht.",
+      "fr": "Le marchand ambulant, le marchand de caravane et le marchand d'étal n'ont plus d'onglet Quête : tu ne perds plus ta quête quand il part.",
+      "pt": "O mercador ambulante, o da caravana e o feirante não têm mais aba de missões; você não perde a missão quando o mercador vai embora.",
+      "ru": "У странствующего торговца, торговца каравана и лавочника больше нет вкладки заданий — уход торговца не сжигает задание."
      }
     },
     {
@@ -221,7 +430,12 @@
      "ic": "anvil",
      "t": {
       "tr": "Örste iki kafa lambası ya da iki çanta birleştirip bedava pil ve dayanıklılık kazanma açığı kapatıldı.",
-      "en": "Closed the exploit of combining two headlamps or two backpacks on the anvil for free battery and durability."
+      "en": "Closed the exploit of combining two headlamps or two backpacks on the anvil for free battery and durability.",
+      "es": "Se cerró el truco de combinar dos linternas de cabeza o dos mochilas en el yunque para obtener batería y durabilidad gratis.",
+      "de": "Der Exploit, auf dem Amboss zwei Stirnlampen oder zwei Rucksäcke für kostenlose Batterie und Haltbarkeit zu kombinieren, ist geschlossen.",
+      "fr": "Fini l'astuce consistant à combiner deux lampes frontales ou deux sacs sur l'enclume pour obtenir batterie et durabilité gratuites.",
+      "pt": "Fechado o truque de juntar duas lanternas de cabeça ou duas mochilas na bigorna para ganhar bateria e durabilidade de graça.",
+      "ru": "Закрыта лазейка: соединение двух налобных фонарей или двух рюкзаков на наковальне больше не даёт бесплатный заряд и прочность."
      }
     },
     {
@@ -229,7 +443,12 @@
      "ic": "abyss_crown",
      "t": {
       "tr": "Efendinin Tacı ve direnç iksiri artık Hiçlik Özü hasarını da %25 azaltıyor.",
-      "en": "The Lord's Crown and the resistance potion now also reduce Void Essence damage by 25%."
+      "en": "The Lord's Crown and the resistance potion now also reduce Void Essence damage by 25%.",
+      "es": "La Corona del Señor y la poción de resistencia ahora también reducen un 25% el daño de la Esencia del Vacío.",
+      "de": "Die Krone des Herrn und der Widerstandstrank verringern jetzt auch Leere-Essenz-Schaden um 25%.",
+      "fr": "La Couronne du Seigneur et la potion de résistance réduisent désormais aussi de 25% les dégâts de l'Essence du Néant.",
+      "pt": "A Coroa do Senhor e a poção de resistência agora também reduzem em 25% o dano da Essência do Vazio.",
+      "ru": "Корона Владыки и зелье сопротивления теперь снижают и урон Сущности Пустоты на 25%."
      }
     },
     {
@@ -237,7 +456,12 @@
      "ic": "bone",
      "t": {
       "tr": "Kurtların ısırığı artık zorluk seviyesine göre değişiyor.",
-      "en": "Wolf bites now scale with the difficulty level."
+      "en": "Wolf bites now scale with the difficulty level.",
+      "es": "La mordedura de los lobos ahora depende del nivel de dificultad.",
+      "de": "Wolfsbisse richten sich jetzt nach dem Schwierigkeitsgrad.",
+      "fr": "Les morsures de loup dépendent désormais du niveau de difficulté.",
+      "pt": "A mordida dos lobos agora varia com o nível de dificuldade.",
+      "ru": "Укус волков теперь зависит от уровня сложности."
      }
     },
     {
@@ -245,7 +469,12 @@
      "ic": "village_seal",
      "t": {
       "tr": "Seviye hikâyesi bölümleri ve kervan eşliği için muhtarın kendine özgü ödül sözleri eklendi.",
-      "en": "The headman now has his own reward lines for level story chapters and caravan escorts."
+      "en": "The headman now has his own reward lines for level story chapters and caravan escorts.",
+      "es": "El alcalde ahora tiene frases de recompensa propias para los capítulos de historia de nivel y las escoltas de caravanas.",
+      "de": "Der Dorfvorsteher hat jetzt eigene Belohnungstexte für Stufen-Story-Kapitel und Karawanenbegleitungen.",
+      "fr": "Le chef du village a désormais ses propres répliques de récompense pour les chapitres d'histoire de niveau et les escortes de caravane.",
+      "pt": "O prefeito agora tem falas de recompensa próprias para capítulos de história de nível e escoltas de caravana.",
+      "ru": "У старосты появились свои слова награды для глав сюжета уровня и сопровождения караванов."
      }
     },
     {
@@ -253,7 +482,12 @@
      "ic": "bed",
      "t": {
       "tr": "Çok oyunculu: uyuyan diğer oyuncular artık yatakta yatarken görünüyor.",
-      "en": "Multiplayer: other sleeping players are now shown lying in their beds."
+      "en": "Multiplayer: other sleeping players are now shown lying in their beds.",
+      "es": "Multijugador: los demás jugadores dormidos ahora aparecen acostados en la cama.",
+      "de": "Mehrspieler: Schlafende Mitspieler liegen jetzt sichtbar im Bett.",
+      "fr": "Multijoueur : les autres joueurs endormis apparaissent désormais allongés dans leur lit.",
+      "pt": "Multijogador: os outros jogadores dormindo agora aparecem deitados na cama.",
+      "ru": "Мультиплеер: спящие игроки теперь видны лежащими в кровати."
      }
     },
     {
@@ -261,7 +495,12 @@
      "ic": "campfire",
      "t": {
       "tr": "Çok oyunculu: oyunu aniden kapatan oyuncu 30 saniyede listeden düşüyor; kurucu kapanırsa bağlantının koptuğu söyleniyor.",
-      "en": "Multiplayer: a player who suddenly closes the game drops from the list within 30 seconds; if the host closes, you're told the connection was lost."
+      "en": "Multiplayer: a player who suddenly closes the game drops from the list within 30 seconds; if the host closes, you're told the connection was lost.",
+      "es": "Multijugador: quien cierra el juego de golpe sale de la lista en 30 segundos; si el anfitrión se cierra, se avisa de que se perdió la conexión.",
+      "de": "Mehrspieler: Wer das Spiel plötzlich schließt, verschwindet nach 30 Sekunden aus der Liste; schließt der Host, wird der Verbindungsabbruch gemeldet.",
+      "fr": "Multijoueur : un joueur qui ferme brusquement le jeu quitte la liste en 30 secondes ; si l'hôte ferme, la perte de connexion est signalée.",
+      "pt": "Multijogador: quem fecha o jogo de repente sai da lista em 30 segundos; se o anfitrião fechar, você é avisado de que a conexão caiu.",
+      "ru": "Мультиплеер: внезапно закрывший игру игрок исчезает из списка за 30 секунд; если закрылся хост, сообщается о потере связи."
      }
     },
     {
@@ -269,7 +508,12 @@
      "ic": "furnace",
      "t": {
       "tr": "Performans: fırınlar, uzaktaki sandıklar ve dünya küçük resmi artık çok daha az işlemci harcıyor.",
-      "en": "Performance: furnaces, distant chests and the world thumbnail now use far less CPU."
+      "en": "Performance: furnaces, distant chests and the world thumbnail now use far less CPU.",
+      "es": "Rendimiento: hornos, cofres lejanos y la miniatura del mundo ahora usan mucha menos CPU.",
+      "de": "Leistung: Öfen, entfernte Truhen und das Weltvorschaubild brauchen jetzt viel weniger CPU.",
+      "fr": "Performances : fours, coffres éloignés et miniature du monde consomment bien moins de processeur.",
+      "pt": "Desempenho: fornalhas, baús distantes e a miniatura do mundo agora usam bem menos CPU.",
+      "ru": "Производительность: печи, дальние сундуки и миниатюра мира теперь гораздо меньше нагружают процессор."
      }
     }
    ]
@@ -280,7 +524,12 @@
    "ic": "mud",
    "ti": {
     "tr": "Bataklık, uyku ve köy düzeltmeleri",
-    "en": "Swamps, sleep & village fixes"
+    "en": "Swamps, sleep & village fixes",
+    "es": "Pantanos, sueño y arreglos de aldeas",
+    "de": "Sümpfe, Schlaf und Dorf-Korrekturen",
+    "fr": "Marais, sommeil et correctifs de village",
+    "pt": "Pântanos, sono e correções de vilas",
+    "ru": "Болота, сон и исправления деревень"
    },
    "it": [
     {
@@ -288,7 +537,12 @@
      "ic": "bed",
      "t": {
       "tr": "Yatağa yatınca köylüler gibi uzanıyorsun; gece birkaç saniyede sabaha akıyor.",
-      "en": "You now lie down in bed like villagers do, and the night flows into morning in a few seconds."
+      "en": "You now lie down in bed like villagers do, and the night flows into morning in a few seconds.",
+      "es": "Ahora te acuestas en la cama como los aldeanos y la noche pasa a la mañana en pocos segundos.",
+      "de": "Im Bett legst du dich jetzt hin wie die Dorfbewohner, und die Nacht fließt in Sekunden in den Morgen.",
+      "fr": "Tu t'allonges désormais dans le lit comme les villageois, et la nuit file vers le matin en quelques secondes.",
+      "pt": "Agora você se deita na cama como os aldeões e a noite vira manhã em poucos segundos.",
+      "ru": "Теперь ты ложишься в кровать, как жители, а ночь за пару секунд перетекает в утро."
      }
     },
     {
@@ -296,7 +550,12 @@
      "ic": "mud",
      "t": {
       "tr": "Bataklık çamuru seni yavaşça yutar: kurtulmak için Boşluk tuşuna art arda bas.",
-      "en": "Swamp mud slowly swallows you: tap Space again and again to break free."
+      "en": "Swamp mud slowly swallows you: tap Space again and again to break free.",
+      "es": "El barro del pantano te traga poco a poco: pulsa Espacio repetidamente para salir.",
+      "de": "Sumpfschlamm zieht dich langsam hinab: Drück immer wieder die Leertaste, um freizukommen.",
+      "fr": "La boue des marais t'engloutit lentement : appuie sur Espace à répétition pour te libérer.",
+      "pt": "A lama do pântano te engole aos poucos: aperte Espaço repetidamente para escapar.",
+      "ru": "Болотная грязь медленно затягивает: жми Пробел снова и снова, чтобы выбраться."
      }
     },
     {
@@ -304,7 +563,12 @@
      "ic": "dirt",
      "t": {
       "tr": "Köy evlerinin arasında beliren toprak ve kum sütunları temizlendi; eski dünyalarda da kendiliğinden düzelir.",
-      "en": "The dirt and sand pillars that appeared between village houses are gone, and they clean up in existing worlds too."
+      "en": "The dirt and sand pillars that appeared between village houses are gone, and they clean up in existing worlds too.",
+      "es": "Se eliminaron las columnas de tierra y arena entre las casas de las aldeas; también se corrigen solas en mundos antiguos.",
+      "de": "Die Erd- und Sandsäulen zwischen den Dorfhäusern sind weg und verschwinden auch in alten Welten von selbst.",
+      "fr": "Les piliers de terre et de sable entre les maisons des villages ont disparu, y compris dans les mondes existants.",
+      "pt": "As colunas de terra e areia entre as casas das vilas sumiram, e se corrigem sozinhas em mundos antigos também.",
+      "ru": "Столбы земли и песка между домами в деревнях убраны; в старых мирах они тоже исчезают сами."
      }
     },
     {
@@ -312,7 +576,12 @@
      "ic": "iron_shovel",
      "t": {
       "tr": "Köyde kazdığın yerler geri dolmuyor, kırdığın ev parçaları ertesi gün onarılıyor.",
-      "en": "Holes you dig in villages no longer refill, and house parts you break are repaired the next day."
+      "en": "Holes you dig in villages no longer refill, and house parts you break are repaired the next day.",
+      "es": "Los hoyos que cavas en las aldeas ya no se rellenan y las partes de casas que rompes se reparan al día siguiente.",
+      "de": "Gegrabene Löcher im Dorf füllen sich nicht mehr, kaputte Hausteile werden am nächsten Tag repariert.",
+      "fr": "Les trous creusés dans les villages ne se rebouchent plus, et les morceaux de maison cassés sont réparés le lendemain.",
+      "pt": "Os buracos que você cava nas vilas não se enchem mais, e partes de casas quebradas são consertadas no dia seguinte.",
+      "ru": "Выкопанные в деревне ямы больше не засыпаются, а сломанные части домов чинятся на следующий день."
      }
     },
     {
@@ -320,7 +589,12 @@
      "ic": "saddle",
      "t": {
       "tr": "Kervanın atına artık binilemiyor: üstünde kervancı oturuyor.",
-      "en": "You can no longer ride the caravan's horse: the caravan driver sits on it."
+      "en": "You can no longer ride the caravan's horse: the caravan driver sits on it.",
+      "es": "Ya no puedes montar el caballo de la caravana: el caravanero va sentado en él.",
+      "de": "Das Karawanenpferd kann nicht mehr geritten werden: Der Karawanenführer sitzt darauf.",
+      "fr": "Tu ne peux plus monter le cheval de la caravane : le caravanier est assis dessus.",
+      "pt": "Não dá mais para montar o cavalo da caravana: o caravaneiro está sentado nele.",
+      "ru": "На лошади каравана больше нельзя ездить: на ней сидит погонщик."
      }
     },
     {
@@ -328,7 +602,12 @@
      "ic": "map",
      "t": {
       "tr": "Görev kartlarını × ile gizleyebilirsin; Muhtar Defteri'ndeki uzun yazılar artık kayarak okunuyor.",
-      "en": "You can hide quest cards with ×, and long texts in the Headman's Ledger now scroll so you can read them fully."
+      "en": "You can hide quest cards with ×, and long texts in the Headman's Ledger now scroll so you can read them fully.",
+      "es": "Puedes ocultar las tarjetas de misión con ×, y los textos largos del Libro del alcalde ahora se desplazan.",
+      "de": "Questkarten lassen sich mit × ausblenden, lange Texte im Dorfvorsteher-Buch laufen jetzt durch.",
+      "fr": "Tu peux masquer les cartes de quête avec ×, et les longs textes du Registre du chef défilent désormais.",
+      "pt": "Você pode esconder os cartões de missão com ×, e textos longos no Livro do Prefeito agora rolam para leitura completa.",
+      "ru": "Карточки заданий можно скрыть крестиком ×, а длинные тексты в Книге старосты теперь прокручиваются."
      }
     },
     {
@@ -336,7 +615,12 @@
      "ic": "painting_frame",
      "t": {
       "tr": "Ekrandaki ince ızgara çizgileri giderildi; tablo çerçevesinin simgesi geldi.",
-      "en": "The thin grid lines on screen are gone, and the painting frame got its icon."
+      "en": "The thin grid lines on screen are gone, and the painting frame got its icon.",
+      "es": "Se eliminaron las finas líneas de cuadrícula en pantalla y el marco de cuadro ya tiene icono.",
+      "de": "Die dünnen Gitterlinien auf dem Bildschirm sind weg, der Bilderrahmen hat sein Symbol.",
+      "fr": "Les fines lignes de grille à l'écran ont disparu, et le cadre de tableau a son icône.",
+      "pt": "As linhas finas de grade na tela sumiram, e a moldura de quadro ganhou seu ícone.",
+      "ru": "Убраны тонкие линии сетки на экране, у рамки для картины появился значок."
      }
     }
    ]
@@ -347,7 +631,12 @@
    "ic": "lantern",
    "ti": {
     "tr": "Işık, gölge ve korku",
-    "en": "Light, shadow & dread"
+    "en": "Light, shadow & dread",
+    "es": "Luz, sombra y terror",
+    "de": "Licht, Schatten und Grauen",
+    "fr": "Lumière, ombre et effroi",
+    "pt": "Luz, sombra e pavor",
+    "ru": "Свет, тень и страх"
    },
    "it": [
     {
@@ -355,7 +644,12 @@
      "ic": "lantern",
      "t": {
       "tr": "Renkli ışıklar ve bloklara çarpıp düşen gerçek gölgeler; alevler titriyor.",
-      "en": "Colored lights and real shadows cast by blocks; flames flicker."
+      "en": "Colored lights and real shadows cast by blocks; flames flicker.",
+      "es": "Luces de colores y sombras reales proyectadas por los bloques; las llamas parpadean.",
+      "de": "Farbige Lichter und echte Schatten von Blöcken; Flammen flackern.",
+      "fr": "Lumières colorées et vraies ombres projetées par les blocs ; les flammes vacillent.",
+      "pt": "Luzes coloridas e sombras reais projetadas pelos blocos; as chamas tremulam.",
+      "ru": "Цветной свет и настоящие тени от блоков; пламя мерцает."
      }
     },
     {
@@ -363,7 +657,12 @@
      "ic": "glass",
      "t": {
       "tr": "Yeni Grafik Ayarları: ön ayar, ışık kalitesi, gölgeler, parlama, çözünürlük ve kare sınırı.",
-      "en": "New Graphics settings: preset, light quality, shadows, bloom, resolution and frame cap."
+      "en": "New Graphics settings: preset, light quality, shadows, bloom, resolution and frame cap.",
+      "es": "Nuevos ajustes gráficos: preajuste, calidad de luz, sombras, resplandor, resolución y límite de fotogramas.",
+      "de": "Neue Grafikeinstellungen: Voreinstellung, Lichtqualität, Schatten, Bloom, Auflösung und Bildratenbegrenzung.",
+      "fr": "Nouveaux réglages graphiques : préréglage, qualité de la lumière, ombres, flou lumineux, résolution et limite d'images.",
+      "pt": "Novas configurações gráficas: predefinição, qualidade da luz, sombras, brilho, resolução e limite de quadros.",
+      "ru": "Новые настройки графики: пресет, качество света, тени, свечение, разрешение и ограничение кадров."
      }
     },
     {
@@ -371,7 +670,12 @@
      "ic": "map",
      "t": {
       "tr": "Görüş alanını sen seç: Ayarlar > Grafik ya da oyunda Alt + fare tekerleği.",
-      "en": "Choose your field of view: Settings > Graphics, or Alt + mouse wheel in game."
+      "en": "Choose your field of view: Settings > Graphics, or Alt + mouse wheel in game.",
+      "es": "Elige tu campo de visión: Ajustes > Gráficos, o Alt + rueda del ratón en el juego.",
+      "de": "Wähle dein Sichtfeld: Einstellungen > Grafik oder im Spiel Alt + Mausrad.",
+      "fr": "Choisis ton champ de vision : Réglages > Graphismes, ou Alt + molette en jeu.",
+      "pt": "Escolha seu campo de visão: Configurações > Gráficos, ou Alt + roda do mouse no jogo.",
+      "ru": "Выбирай поле зрения: Настройки > Графика или Alt + колесо мыши в игре."
      }
     },
     {
@@ -379,7 +683,12 @@
      "ic": "redstone",
      "t": {
       "tr": "F3 artık sistem bilgisini de gösteriyor: FPS, ekran kartı, işlemci ve bellek.",
-      "en": "F3 now also shows system info: FPS, GPU, CPU and memory."
+      "en": "F3 now also shows system info: FPS, GPU, CPU and memory.",
+      "es": "F3 ahora también muestra información del sistema: FPS, GPU, CPU y memoria.",
+      "de": "F3 zeigt jetzt auch Systeminfos: FPS, Grafikkarte, CPU und Speicher.",
+      "fr": "F3 affiche désormais aussi les infos système : FPS, carte graphique, processeur et mémoire.",
+      "pt": "F3 agora também mostra informações do sistema: FPS, placa de vídeo, CPU e memória.",
+      "ru": "F3 теперь показывает и сведения о системе: FPS, видеокарту, процессор и память."
      }
     },
     {
@@ -387,7 +696,12 @@
      "ic": "abyss_crown",
      "t": {
       "tr": "Her patronun kendi müzik teması var; Derinlerin Efendisi çok daha ürkütücü.",
-      "en": "Every boss has its own music theme, and the Lord of the Depths is far scarier."
+      "en": "Every boss has its own music theme, and the Lord of the Depths is far scarier.",
+      "es": "Cada jefe tiene su propio tema musical y el Señor de las Profundidades da mucho más miedo.",
+      "de": "Jeder Boss hat sein eigenes Musikthema, und der Herr der Tiefe ist viel unheimlicher.",
+      "fr": "Chaque boss a son propre thème musical, et le Seigneur des Profondeurs est bien plus effrayant.",
+      "pt": "Cada chefe tem seu próprio tema musical, e o Senhor das Profundezas ficou bem mais assustador.",
+      "ru": "У каждого босса своя музыкальная тема, а Владыка Глубин стал куда страшнее."
      }
     },
     {
@@ -395,7 +709,12 @@
      "ic": "bone",
      "t": {
       "tr": "Öldüğünde eşyalarının saçıldığını görürsün; ölüm kartı birkaç saniye sonra açılır.",
-      "en": "When you die you see your items scatter; the death screen opens a few seconds later."
+      "en": "When you die you see your items scatter; the death screen opens a few seconds later.",
+      "es": "Al morir ves cómo se esparcen tus objetos; la pantalla de muerte aparece unos segundos después.",
+      "de": "Wenn du stirbst, siehst du deine Gegenstände verstreut; der Todesbildschirm erscheint ein paar Sekunden später.",
+      "fr": "À ta mort, tu vois tes objets s'éparpiller ; l'écran de mort s'ouvre quelques secondes après.",
+      "pt": "Ao morrer, você vê seus itens se espalharem; a tela de morte abre alguns segundos depois.",
+      "ru": "После смерти видно, как разлетаются вещи; экран смерти открывается через несколько секунд."
      }
     },
     {
@@ -403,7 +722,12 @@
      "ic": "ender_eye",
      "t": {
       "tr": "Keşif görevleri yüzeyde de uzak yerlere gönderiyor; 18 yeni başarım.",
-      "en": "Exploration quests now send you to far places on the surface too; 18 new achievements."
+      "en": "Exploration quests now send you to far places on the surface too; 18 new achievements.",
+      "es": "Las misiones de exploración ahora también te llevan a lugares lejanos en la superficie; 18 logros nuevos.",
+      "de": "Erkundungsaufträge führen jetzt auch an ferne Orte an der Oberfläche; 18 neue Erfolge.",
+      "fr": "Les quêtes d'exploration t'envoient aussi vers des lieux lointains en surface ; 18 nouveaux succès.",
+      "pt": "Missões de exploração agora também levam a lugares distantes na superfície; 18 novas conquistas.",
+      "ru": "Задания разведки теперь ведут и в дальние места на поверхности; 18 новых достижений."
      }
     },
     {
@@ -411,7 +735,12 @@
      "ic": "writable_book",
      "t": {
       "tr": "Mola menüsünde Geri Bildirim defteri: oyunu nasıl bulduğunu bize anlat.",
-      "en": "A Feedback notebook in the pause menu: tell us what you think of the game."
+      "en": "A Feedback notebook in the pause menu: tell us what you think of the game.",
+      "es": "Cuaderno de comentarios en el menú de pausa: cuéntanos qué te parece el juego.",
+      "de": "Feedback-Notizbuch im Pausenmenü: Erzähl uns, wie dir das Spiel gefällt.",
+      "fr": "Carnet de retours dans le menu pause : dis-nous ce que tu penses du jeu.",
+      "pt": "Caderno de feedback no menu de pausa: conte o que você acha do jogo.",
+      "ru": "Блокнот отзывов в меню паузы: расскажи, как тебе игра."
      }
     }
    ]
@@ -422,7 +751,12 @@
    "ic": "stone_bricks",
    "ti": {
     "tr": "Kaleler, şehirler ve kervanlar",
-    "en": "Castles, cities & caravans"
+    "en": "Castles, cities & caravans",
+    "es": "Castillos, ciudades y caravanas",
+    "de": "Burgen, Städte und Karawanen",
+    "fr": "Châteaux, villes et caravanes",
+    "pt": "Castelos, cidades e caravanas",
+    "ru": "Замки, города и караваны"
    },
    "it": [
     {
@@ -430,7 +764,12 @@
      "ic": "stone_bricks",
      "t": {
       "tr": "Köyler Kasaba'dan sonra Belde, Kale ve Şehir olarak büyüyor; surlar ve askerler geldi.",
-      "en": "After Town, villages grow into Township, Castle and City; walls and soldiers are here."
+      "en": "After Town, villages grow into Township, Castle and City; walls and soldiers are here.",
+      "es": "Tras el Pueblo, las aldeas crecen a Villa, Castillo y Ciudad; llegan murallas y soldados.",
+      "de": "Nach der Kleinstadt wachsen Dörfer zu Marktflecken, Burg und Stadt; Mauern und Soldaten sind da.",
+      "fr": "Après le Bourg, les villages deviennent Commune, Château et Ville ; remparts et soldats arrivent.",
+      "pt": "Depois da Cidadezinha, as vilas viram Distrito, Castelo e Cidade; chegaram muralhas e soldados.",
+      "ru": "После посёлка деревни растут до местечка, замка и города; появились стены и солдаты."
      }
     },
     {
@@ -438,7 +777,12 @@
      "ic": "door",
      "t": {
       "tr": "Sur kapıları gündüz açık; gece yalnızca köyün tanıdıklarına açılıyor.",
-      "en": "Wall gates are open by day; at night they only open for people the village knows."
+      "en": "Wall gates are open by day; at night they only open for people the village knows.",
+      "es": "Las puertas de la muralla abren de día; de noche solo para quienes la aldea conoce.",
+      "de": "Stadttore sind tagsüber offen; nachts öffnen sie nur für Bekannte des Dorfes.",
+      "fr": "Les portes des remparts sont ouvertes le jour ; la nuit, seulement pour ceux que le village connaît.",
+      "pt": "Os portões da muralha ficam abertos de dia; à noite só abrem para quem a vila conhece.",
+      "ru": "Ворота днём открыты, ночью — только для знакомых деревни."
      }
     },
     {
@@ -446,7 +790,12 @@
      "ic": "saddle",
      "t": {
       "tr": "Köyler arası yollar ve kervanlar: tüccara eşlik et, haydutlara karşı koy.",
-      "en": "Roads and caravans between villages: escort the merchant and stand up to bandits."
+      "en": "Roads and caravans between villages: escort the merchant and stand up to bandits.",
+      "es": "Caminos y caravanas entre aldeas: escolta al mercader y enfréntate a los bandidos.",
+      "de": "Straßen und Karawanen zwischen Dörfern: Begleite den Händler und stell dich Banditen.",
+      "fr": "Routes et caravanes entre villages : escorte le marchand et tiens tête aux bandits.",
+      "pt": "Estradas e caravanas entre vilas: escolte o mercador e enfrente os bandidos.",
+      "ru": "Дороги и караваны между деревнями: сопровождай торговца и давай отпор разбойникам."
      }
     },
     {
@@ -454,7 +803,12 @@
      "ic": "ladder",
      "t": {
       "tr": "Köy arazisi kendiliğinden düzleniyor; köylüler merdiven çıkıyor ve yüzüyor.",
-      "en": "Village terrain smooths itself out; villagers climb ladders and swim."
+      "en": "Village terrain smooths itself out; villagers climb ladders and swim.",
+      "es": "El terreno de las aldeas se nivela solo; los aldeanos suben escaleras y nadan.",
+      "de": "Dorfgelände ebnet sich selbst; Dorfbewohner klettern Leitern und schwimmen.",
+      "fr": "Le terrain des villages s'aplanit tout seul ; les villageois grimpent aux échelles et nagent.",
+      "pt": "O terreno das vilas se nivela sozinho; aldeões sobem escadas e nadam.",
+      "ru": "Земля в деревнях выравнивается сама; жители лазят по лестницам и плавают."
      }
     },
     {
@@ -462,7 +816,12 @@
      "ic": "fence",
      "t": {
       "tr": "Çiftlik hayvanları fenerli, çatılı ağıllarda yaşıyor.",
-      "en": "Farm animals live in lantern-lit, roofed pens."
+      "en": "Farm animals live in lantern-lit, roofed pens.",
+      "es": "Los animales de granja viven en corrales techados con farolillos.",
+      "de": "Nutztiere leben in überdachten Ställen mit Laternen.",
+      "fr": "Les animaux de ferme vivent dans des enclos couverts éclairés par des lanternes.",
+      "pt": "Animais de fazenda vivem em currais cobertos com lanternas.",
+      "ru": "Скот живёт в крытых загонах с фонарями."
      }
     },
     {
@@ -470,7 +829,12 @@
      "ic": "lever",
      "t": {
       "tr": "F4 ile Komut Paneli: oyun modu, zaman, hava ve daha fazlası tek tıkla (hileler açıkken).",
-      "en": "Command Panel on F4: game mode, time, weather and more in one click (with cheats on)."
+      "en": "Command Panel on F4: game mode, time, weather and more in one click (with cheats on).",
+      "es": "Panel de comandos con F4: modo de juego, hora, clima y más con un clic (con trucos activados).",
+      "de": "Befehlspanel mit F4: Spielmodus, Zeit, Wetter und mehr mit einem Klick (mit Cheats).",
+      "fr": "Panneau de commandes sur F4 : mode de jeu, heure, météo et plus en un clic (triches activées).",
+      "pt": "Painel de comandos no F4: modo de jogo, hora, clima e mais com um clique (com trapaças ativadas).",
+      "ru": "Панель команд на F4: режим игры, время, погода и многое другое в один клик (при включённых читах)."
      }
     },
     {
@@ -478,7 +842,12 @@
      "ic": "book",
      "t": {
       "tr": "Yeni Ustalıklar ekranı ve /ustalik, /un, /kervan, /komutlar komutları.",
-      "en": "New Masteries screen and the /ustalik, /un, /kervan, /komutlar commands."
+      "en": "New Masteries screen and the /ustalik, /un, /kervan, /komutlar commands.",
+      "es": "Nueva pantalla de maestrías y los comandos /ustalik, /un, /kervan, /komutlar.",
+      "de": "Neuer Meisterschaften-Bildschirm und die Befehle /ustalik, /un, /kervan, /komutlar.",
+      "fr": "Nouvel écran Maîtrises et les commandes /ustalik, /un, /kervan, /komutlar.",
+      "pt": "Nova tela de maestrias e os comandos /ustalik, /un, /kervan, /komutlar.",
+      "ru": "Новый экран мастерства и команды /ustalik, /un, /kervan, /komutlar."
      }
     }
    ]
@@ -489,7 +858,12 @@
    "ic": "emerald",
    "ti": {
     "tr": "Köyler canlanıyor, mobil yenilendi",
-    "en": "Villages come alive, mobile redesigned"
+    "en": "Villages come alive, mobile redesigned",
+    "es": "Las aldeas cobran vida, móvil renovado",
+    "de": "Dörfer erwachen, Mobil neu gestaltet",
+    "fr": "Les villages s'animent, mobile repensé",
+    "pt": "Vilas ganham vida, celular renovado",
+    "ru": "Деревни оживают, мобильная версия обновлена"
    },
    "it": [
     {
@@ -497,7 +871,12 @@
      "ic": "emerald",
      "t": {
       "tr": "Muhtar ve Muhtar Defteri: günlük ihtiyaçlar, haftalık işler ve hikâye bölümleri.",
-      "en": "The Headman and the Headman's Ledger: daily needs, weekly jobs and story chapters."
+      "en": "The Headman and the Headman's Ledger: daily needs, weekly jobs and story chapters.",
+      "es": "El alcalde y su libro: necesidades diarias, trabajos semanales y capítulos de historia.",
+      "de": "Der Dorfvorsteher und sein Buch: tägliche Bedürfnisse, Wochenaufgaben und Story-Kapitel.",
+      "fr": "Le chef du village et son registre : besoins du jour, tâches de la semaine et chapitres d'histoire.",
+      "pt": "O prefeito e seu livro: necessidades diárias, tarefas semanais e capítulos de história.",
+      "ru": "Староста и его книга: ежедневные нужды, недельные дела и главы истории."
      }
     },
     {
@@ -505,7 +884,12 @@
      "ic": "notice_board",
      "t": {
       "tr": "İlan panosu: köylülerin isteklerini karşıla ya da kendi ilanını as.",
-      "en": "Notice board: fulfil villagers' requests or pin your own."
+      "en": "Notice board: fulfil villagers' requests or pin your own.",
+      "es": "Tablón de anuncios: cumple los pedidos de los aldeanos o cuelga el tuyo.",
+      "de": "Anschlagbrett: Erfülle Wünsche der Dorfbewohner oder häng eigene aus.",
+      "fr": "Panneau d'annonces : réponds aux demandes des villageois ou affiche la tienne.",
+      "pt": "Quadro de avisos: atenda aos pedidos dos aldeões ou fixe o seu.",
+      "ru": "Доска объявлений: выполняй просьбы жителей или вешай свои."
      }
     },
     {
@@ -513,7 +897,12 @@
      "ic": "iron_pickaxe",
      "t": {
       "tr": "Çıraklar: Çiftçi, Madenci, Aşçı, Muhafız ya da Simyacı tut; maaşını ve yatağını unutma!",
-      "en": "Apprentices: hire a Farmer, Miner, Cook, Guard or Alchemist; don't forget their wage and bed!"
+      "en": "Apprentices: hire a Farmer, Miner, Cook, Guard or Alchemist; don't forget their wage and bed!",
+      "es": "Aprendices: contrata a un granjero, minero, cocinero, guardia o alquimista; ¡no olvides su sueldo y su cama!",
+      "de": "Lehrlinge: Stell einen Bauern, Bergmann, Koch, Wächter oder Alchemisten ein; vergiss Lohn und Bett nicht!",
+      "fr": "Apprentis : engage un fermier, mineur, cuisinier, garde ou alchimiste ; n'oublie pas son salaire et son lit !",
+      "pt": "Aprendizes: contrate um fazendeiro, mineiro, cozinheiro, guarda ou alquimista; não esqueça o salário e a cama!",
+      "ru": "Подмастерья: найми фермера, шахтёра, повара, стражника или алхимика; не забывай про жалованье и кровать!"
      }
     },
     {
@@ -521,7 +910,12 @@
      "ic": "pumpkin",
      "t": {
       "tr": "Dolunay baskınları, pazar günleri, mevsim şenlikleri ve düğünler.",
-      "en": "Full-moon raids, market days, seasonal festivals and weddings."
+      "en": "Full-moon raids, market days, seasonal festivals and weddings.",
+      "es": "Asaltos de luna llena, días de mercado, fiestas de temporada y bodas.",
+      "de": "Vollmond-Überfälle, Markttage, Jahreszeitenfeste und Hochzeiten.",
+      "fr": "Raids de pleine lune, jours de marché, fêtes de saison et mariages.",
+      "pt": "Ataques de lua cheia, dias de feira, festivais sazonais e casamentos.",
+      "ru": "Набеги в полнолуние, базарные дни, сезонные праздники и свадьбы."
      }
     },
     {
@@ -529,7 +923,12 @@
      "ic": "ender_chest",
      "t": {
       "tr": "Windows sürümü: tek dosyalık taşınabilir EXE ya da zip; kayıtların yerinde kalır.",
-      "en": "Windows version: a single-file portable EXE or a zip; your saves stay put."
+      "en": "Windows version: a single-file portable EXE or a zip; your saves stay put.",
+      "es": "Versión para Windows: EXE portátil de un solo archivo o zip; tus partidas se conservan.",
+      "de": "Windows-Version: portable EXE in einer Datei oder ZIP; deine Spielstände bleiben erhalten.",
+      "fr": "Version Windows : EXE portable en un seul fichier ou zip ; tes sauvegardes restent en place.",
+      "pt": "Versão para Windows: EXE portátil de arquivo único ou zip; seus saves ficam onde estão.",
+      "ru": "Версия для Windows: портативный EXE одним файлом или zip; сохранения остаются на месте."
      }
     },
     {
@@ -537,7 +936,12 @@
      "ic": "guardian_bow",
      "t": {
       "tr": "Yeni patronlar: Zindan Bekçisi, Deniz Canavarı ve Derinlerin Efendisi.",
-      "en": "New bosses: the Dungeon Guardian, the Sea Leviathan and the Lord of the Depths."
+      "en": "New bosses: the Dungeon Guardian, the Sea Leviathan and the Lord of the Depths.",
+      "es": "Nuevos jefes: el Guardián de la Mazmorra, el Leviatán Marino y el Señor de las Profundidades.",
+      "de": "Neue Bosse: der Kerkerwächter, der Meeresleviathan und der Herr der Tiefe.",
+      "fr": "Nouveaux boss : le Gardien du donjon, le Léviathan des mers et le Seigneur des Profondeurs.",
+      "pt": "Novos chefes: o Guardião da Masmorra, o Leviatã do Mar e o Senhor das Profundezas.",
+      "ru": "Новые боссы: Страж подземелья, Морской левиафан и Владыка Глубин."
      }
     },
     {
@@ -545,7 +949,12 @@
      "ic": "map",
      "t": {
       "tr": "Yeni sürüm çıkınca oyun içinden bildirim alırsın.",
-      "en": "You get an in-game notice when a new version is out."
+      "en": "You get an in-game notice when a new version is out.",
+      "es": "Recibes un aviso en el juego cuando sale una versión nueva.",
+      "de": "Erscheint eine neue Version, bekommst du eine Meldung im Spiel.",
+      "fr": "Tu reçois une notification en jeu quand une nouvelle version sort.",
+      "pt": "Você recebe um aviso no jogo quando sai uma versão nova.",
+      "ru": "Когда выходит новая версия, в игре появляется уведомление."
      }
     }
    ]
