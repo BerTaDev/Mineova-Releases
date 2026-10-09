@@ -1,24 +1,65 @@
 {
  "game": "Mineova",
- "updated": "2026-10-08T23:10:12.954Z",
+ "updated": "2026-10-09T19:50:10.154Z",
  "latest": {
   "version": "2.1.0",
-  "build": "20261010.27",
-  "date": "2026-10-08",
-  "notes": "Yeni ad: Mineova! PC Başlatıcı, otomatik güncellemeler ve yeni ayarlar",
+  "build": "20261010.28",
+  "date": "2026-10-09",
+  "notes": "Başlatıcı artık kendini güncelliyor, daha küçük kurulum, anonim kullanım verisi",
   "packages": {
    "44.5.1": {
-    "url": "packages/mineova-20261010.27-e44.5.1.dpak",
-    "size": 7512232,
-    "sha256": "21e9b42280dfe8daaa09a045b801082a07bd82b13df8a70676a0ebc663a741ca"
+    "url": "packages/mineova-20261010.28-e44.5.1.dpak",
+    "size": 7543008,
+    "sha256": "5c94409093db580c8bf2834c93081240016cc50c3dd300d478a746cc895ca310"
    }
   }
  },
  "launcher": {
-  "version": "1.0.0",
-  "url": "https://bertadev.itch.io/mineova"
+  "version": "1.1.0",
+  "electron": "44.5.1",
+  "url": "https://bertadev.itch.io/mineova",
+  "asar": {
+   "url": "launcher/app-1.1.0-e44.5.1.bin",
+   "size": 7773361,
+   "sha256": "7e07b2fb1850fa8a812bd0f0d0b0c6ceba3f008fa82d2d8de3250f60faa50811"
+  }
  },
  "news": [
+  {
+   "b": "20261010.28",
+   "v": "2.1.0",
+   "ic": "paper",
+   "ti": {
+    "tr": "Daha küçük kurulum",
+    "en": "Smaller installer"
+   },
+   "it": [
+    {
+     "k": "new",
+     "ic": "ender_chest",
+     "t": {
+      "tr": "Başlatıcı artık kendini güncelliyor: yeni sürümler için itch.io'ya gitmene gerek yok.",
+      "en": "The launcher now updates itself: no need to visit itch.io for new versions."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "ender_chest",
+     "t": {
+      "tr": "Başlatıcı kurulumu artık çok daha küçük: oyun ilk açılışta başlatıcıdan indirilir.",
+      "en": "The launcher installer is now much smaller: the game is downloaded by the launcher on first start."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "paper",
+     "t": {
+      "tr": "Oyunu geliştirmek için anonim kullanım verisi: adın, dünyaların ve sohbetin gönderilmez. Ayarlar › Genel'den kapatılabilir.",
+      "en": "Anonymous usage data to help improve the game: your name, worlds and chat are never sent. You can turn it off in Settings › General."
+     }
+    }
+   ]
+  },
   {
    "b": "20261010.27",
    "v": "2.1.0",
