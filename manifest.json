@@ -1,30 +1,124 @@
 {
  "game": "Mineova",
- "updated": "2026-10-09T20:36:24.729Z",
+ "updated": "2026-10-12T02:34:21.776Z",
  "latest": {
-  "version": "2.1.0",
-  "build": "20261010.29",
-  "date": "2026-10-09",
-  "notes": "Başlatıcı 1.2.0: sürüm seçimi, galeri, hata bildir, 7 dil, başlatma seçenekleri",
+  "version": "2.2.0",
+  "build": "20261012.30",
+  "date": "2026-10-12",
+  "notes": "Yeni görünüm: dünya, karakterler ve arayüz baştan çizildi; başlatıcı 1.3.0",
   "packages": {
    "44.5.1": {
-    "url": "packages/mineova-20261010.29-e44.5.1.dpak",
-    "size": 7550944,
-    "sha256": "aca2283d63d170778fa689746d68349078584f67c99878770a7831238182717f"
+    "url": "packages/mineova-20261012.30-e44.5.1.dpak",
+    "size": 7640832,
+    "sha256": "93b4ea6a4977ce18a065e125d33c606d07082b1e35b757373ae9fe41a0d5cf95"
    }
   }
  },
  "launcher": {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "electron": "44.5.1",
   "url": "https://bertadev.itch.io/mineova",
   "asar": {
-   "url": "launcher/app-1.2.0-e44.5.1.bin",
-   "size": 7823975,
-   "sha256": "e42c6d9b65b1f919502772bffb4c5f9a131633f70e73284b17f1e375331f2736"
+   "url": "launcher/app-1.3.0-e44.5.1.bin",
+   "size": 8032490,
+   "sha256": "f3f9032905013a4a8d7871dbf46467a964351caf40de50e744af22195a01cb3e"
   }
  },
  "news": [
+  {
+   "b": "20261012.30",
+   "v": "2.2.0",
+   "ic": "dirt",
+   "ti": {
+    "tr": "Yeni görünüm",
+    "en": "A new look",
+    "es": "Nuevo aspecto",
+    "de": "Neuer Look",
+    "fr": "Nouveau look",
+    "pt": "Novo visual",
+    "ru": "Новый облик"
+   },
+   "it": [
+    {
+     "k": "new",
+     "ic": "dirt",
+     "t": {
+      "tr": "Yeni görünüm: bütün dünya daha ayrıntılı ve canlı bir piksel tarzıyla yeniden çizildi.",
+      "en": "New look: the whole world has been redrawn in a more detailed, more colorful pixel style.",
+      "es": "Nuevo aspecto: todo el mundo se ha redibujado con un estilo de píxel más detallado y colorido.",
+      "de": "Neuer Look: Die ganze Welt wurde in einem detaillierteren, farbenfroheren Pixelstil neu gezeichnet.",
+      "fr": "Nouveau look : tout le monde a été redessiné dans un style pixel plus détaillé et plus coloré.",
+      "pt": "Novo visual: o mundo inteiro foi redesenhado num estilo de pixel mais detalhado e colorido.",
+      "ru": "Новый облик: весь мир перерисован в более детальном и ярком пиксельном стиле."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "sapling",
+     "t": {
+      "tr": "Bloklar komşularına göre şekilleniyor: çim kenardan sarkıyor, toprak taşa doğal bir geçişle karışıyor.",
+      "en": "Blocks now shape themselves to their neighbors: grass hangs over edges and dirt blends naturally into stone.",
+      "es": "Los bloques se adaptan a sus vecinos: la hierba cuelga de los bordes y la tierra se funde con la piedra.",
+      "de": "Blöcke passen sich ihren Nachbarn an: Gras hängt über Kanten, Erde geht natürlich in Stein über.",
+      "fr": "Les blocs s'adaptent à leurs voisins : l'herbe déborde des bords et la terre se fond dans la pierre.",
+      "pt": "Os blocos se moldam aos vizinhos: a grama pende nas bordas e a terra se mistura naturalmente à pedra.",
+      "ru": "Блоки подстраиваются под соседей: трава свисает с краёв, земля плавно переходит в камень."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "diamond_pickaxe",
+     "t": {
+      "tr": "Yeni karakter çizimleri, gökyüzü, bulutlar, tepe siluetleri, su ve lav.",
+      "en": "New character art, sky, clouds, hill silhouettes, water and lava.",
+      "es": "Nuevos personajes, cielo, nubes, siluetas de colinas, agua y lava.",
+      "de": "Neue Figuren, Himmel, Wolken, Hügelsilhouetten, Wasser und Lava.",
+      "fr": "Nouveaux personnages, ciel, nuages, silhouettes de collines, eau et lave.",
+      "pt": "Novos personagens, céu, nuvens, silhuetas de colinas, água e lava.",
+      "ru": "Новые персонажи, небо, облака, силуэты холмов, вода и лава."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "chest",
+     "t": {
+      "tr": "Eşya simgeleri yenilendi; blok eşyaları artık düz blok simgesiyle görünüyor.",
+      "en": "Item icons refreshed; block items now show a flat block icon.",
+      "es": "Iconos de objetos renovados; los bloques ahora muestran un icono plano.",
+      "de": "Gegenstandssymbole überarbeitet; Blöcke zeigen jetzt ein flaches Blocksymbol.",
+      "fr": "Icônes d'objets rafraîchies ; les blocs ont maintenant une icône plate.",
+      "pt": "Ícones de itens renovados; os blocos agora aparecem com um ícone plano.",
+      "ru": "Обновлены значки предметов; блоки теперь показаны плоским значком."
+     }
+    },
+    {
+     "k": "new",
+     "ic": "lantern",
+     "t": {
+      "tr": "Yeni arayüz: koyu cam paneller, ince çimen çizgileri, sade düğmeler (bilgisayarda).",
+      "en": "New interface: dark glass panels, thin grass lines and cleaner buttons (on PC).",
+      "es": "Nueva interfaz: paneles de cristal oscuro, finas líneas de hierba y botones más limpios (en PC).",
+      "de": "Neue Oberfläche: dunkle Glaspaneele, feine Graslinien und klarere Schaltflächen (am PC).",
+      "fr": "Nouvelle interface : panneaux de verre sombre, fines lignes d'herbe et boutons plus sobres (sur PC).",
+      "pt": "Nova interface: painéis de vidro escuro, linhas finas de grama e botões mais limpos (no PC).",
+      "ru": "Новый интерфейс: тёмные стеклянные панели, тонкие травяные линии и аккуратные кнопки (на ПК)."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "ender_chest",
+     "t": {
+      "tr": "Başlatıcı da yeni görünüme geçti.",
+      "en": "The launcher has the new look too.",
+      "es": "El lanzador también estrena aspecto.",
+      "de": "Auch der Launcher hat den neuen Look.",
+      "fr": "Le lanceur adopte aussi le nouveau look.",
+      "pt": "O launcher também ganhou o novo visual.",
+      "ru": "Лаунчер тоже получил новый облик."
+     }
+    }
+   ]
+  },
   {
    "b": "20261010.29",
    "v": "2.1.0",
