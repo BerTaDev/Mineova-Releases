@@ -1,30 +1,72 @@
 {
  "game": "Mineova",
- "updated": "2026-10-12T02:34:21.776Z",
+ "updated": "2026-10-13T19:11:40.741Z",
  "latest": {
   "version": "2.2.0",
-  "build": "20261012.30",
-  "date": "2026-10-12",
-  "notes": "Yeni görünüm: dünya, karakterler ve arayüz baştan çizildi; başlatıcı 1.3.0",
+  "build": "20261013.31",
+  "date": "2026-10-13",
+  "notes": "Yeni ikon; başlatıcı kısayollarının ikonunu da yeniliyor (1.3.1)",
   "packages": {
    "44.5.1": {
-    "url": "packages/mineova-20261012.30-e44.5.1.dpak",
-    "size": 7640832,
-    "sha256": "93b4ea6a4977ce18a065e125d33c606d07082b1e35b757373ae9fe41a0d5cf95"
+    "url": "packages/mineova-20261013.31-e44.5.1.dpak",
+    "size": 7646094,
+    "sha256": "7202e79a8fe4d8a89003b6d861807000d63cbe9c970c19c1342ca0bf00d1448e"
    }
   }
  },
  "launcher": {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "electron": "44.5.1",
   "url": "https://bertadev.itch.io/mineova",
   "asar": {
-   "url": "launcher/app-1.3.0-e44.5.1.bin",
-   "size": 8032490,
-   "sha256": "f3f9032905013a4a8d7871dbf46467a964351caf40de50e744af22195a01cb3e"
+   "url": "launcher/app-1.3.1-e44.5.1.bin",
+   "size": 7875607,
+   "sha256": "a1a762f5c7bc6bd0fcaa42dbeff92c9f70fc152ef99a224601fe39a428951a23"
   }
  },
  "news": [
+  {
+   "b": "20261013.31",
+   "v": "2.2.0",
+   "ic": "dirt",
+   "ti": {
+    "tr": "Yeni ikon",
+    "en": "A new icon",
+    "es": "Nuevo icono",
+    "de": "Neues Symbol",
+    "fr": "Nouvelle icône",
+    "pt": "Novo ícone",
+    "ru": "Новый значок"
+   },
+   "it": [
+    {
+     "k": "new",
+     "ic": "dirt",
+     "t": {
+      "tr": "Mineova'nın yeni ikonu: yeni görünümle çizilmiş küçük bir toprak parçası.",
+      "en": "Mineova's new icon: a little chunk of ground drawn in the new style.",
+      "es": "El nuevo icono de Mineova: un pequeño trozo de tierra con el nuevo estilo.",
+      "de": "Mineovas neues Symbol: ein kleines Stück Erde im neuen Stil.",
+      "fr": "La nouvelle icône de Mineova : un petit morceau de terre dans le nouveau style.",
+      "pt": "O novo ícone do Mineova: um pedacinho de terra no novo estilo.",
+      "ru": "Новый значок Mineova: кусочек земли в новом стиле."
+     }
+    },
+    {
+     "k": "imp",
+     "ic": "ender_chest",
+     "t": {
+      "tr": "Başlatıcı masaüstü ve Başlat menüsü kısayollarının ikonunu da kendiliğinden yeniliyor.",
+      "en": "The launcher also refreshes the icon of your desktop and Start menu shortcuts.",
+      "es": "El lanzador también actualiza el icono de tus accesos directos del escritorio y del menú Inicio.",
+      "de": "Der Launcher erneuert auch das Symbol deiner Desktop- und Startmenü-Verknüpfungen.",
+      "fr": "Le lanceur met aussi à jour l'icône de tes raccourcis du bureau et du menu Démarrer.",
+      "pt": "O launcher também atualiza o ícone dos atalhos da área de trabalho e do menu Iniciar.",
+      "ru": "Лаунчер также обновляет значок ярлыков на рабочем столе и в меню «Пуск»."
+     }
+    }
+   ]
+  },
   {
    "b": "20261012.30",
    "v": "2.2.0",
